@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>iCleaner Pro</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>DetectPath</key>
+	<string>/Applications/iCleaner.app/iCleaner</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Applications/iCleaner.app/iCleaner</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>00687400</string>
+					<key>Replece</key>
+					<string>00077400</string>
+					<key>HEX</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Orig</key>
+					<string>686500254025402540254000</string>
+					<key>Replece</key>
+					<string>6865006A756C696F76657200</string>
+					<key>HEX</key>
+					<true/>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+			<key>Entitlement</key>
+			<dict>
+				<key>File</key>
+				<string>ent.plist</string>
+			</dict>
+		</dict>
+	</array>
+	<key>CommandsPre</key>
+	<array>
+		<string>killall -9 iCleaner</string>
+	</array>	
+	<key>CommandsPost</key>
+	<array>
+		<string>mkdir -p //var/mobile/Library/iCleaner/;chown mobile:mobile //var/mobile/Library/iCleaner/;chmod 755 //var/mobile/Library/iCleaner/;printf "a2fe33c0c054377cd11cd24bcd706cb4" >//var/mobile/Library/iCleaner/license.cached;</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+Author: ScarNaruto <admin@scar-naruto.com>
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Name: exKey
+Package: com.tw3pole.exkey
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: gsc.ipad, org.thebigboss.ikeywi, tw.hiraku.ikeywi2
+Version: 1.8.9-3
+Architecture: iphoneos-arm
+Description: Adds extra row of keys to keyboard
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=exkeyDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=exkeyDp
+Sponsor: ScarNaruto <http://scar-naruto.com>
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+dev: richardcheng
+Installed-Size: 733
+Icon: file:///Library/PreferenceBundles/exKeySettings.bundle/exKey@2x.png

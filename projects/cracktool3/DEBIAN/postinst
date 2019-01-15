@@ -1,0 +1,5 @@
+#!/bin/sh
+chown 0:0 /Applications/CrackTool3.app/CrackTool3
+chmod 6755 /Applications/CrackTool3.app/CrackTool3
+su mobile -c uicache
+exit 0

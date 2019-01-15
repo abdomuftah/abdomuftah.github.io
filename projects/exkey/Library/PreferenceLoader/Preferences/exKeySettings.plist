@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = exKeySettings;
+	cell = PSLinkCell;
+	detail = exKeySettingsController;
+	icon = exKey.png;
+	isController = 1;
+	label = exKey;
+    };
+}

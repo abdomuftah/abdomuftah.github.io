@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Cercube for YouTube</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>DetectPath</key>
+	<string>/Library/MobileSubstrate/DynamicLibraries/Cercube.dylib</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Library/MobileSubstrate/DynamicLibraries/Cercube.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>/usr/lib/libSystem.B.dylib</string>
+					<key>Replece</key>
+					<string>/usr/lib/CercubePass.dylib</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CopyFiles</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>CercubePass.dylib</string>
+			<key>ToPath</key>
+			<string>/usr/lib/CercubePass.dylib</string>
+			<key>User</key>
+			<string>root</string>
+			<key>Group</key>
+			<string>wheel</string>
+			<key>Perm</key>
+			<string>755</string>
+		</dict>
+	</array>
+	<key>CommandsPost</key>
+	<array>
+		<string>killall YouTube</string>
+	</array>
+	<key>PathsAddList</key>
+	<array>
+		<string>/usr/lib/CercubePass.dylib</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PowerDown</key>
+	<dict>
+		<key>color</key>
+		<string>red</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>0</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/PowerDown.png</string>
+		<key>string</key>
+		<string>slide to power off</string>
+	</dict>
+	<key>Reboot</key>
+	<dict>
+		<key>color</key>
+		<string>orange</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>1</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/Reboot.png</string>
+		<key>string</key>
+		<string>slide to reboot</string>
+	</dict>
+	<key>LDRestart</key>
+	<dict>
+		<key>color</key>
+		<string>purple</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>2</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/LDRestart.png</string>
+		<key>string</key>
+		<string>slide to ldrestart</string>
+	</dict>
+	<key>Respring</key>
+	<dict>
+		<key>color</key>
+		<string>gray</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>3</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/Respring.png</string>
+		<key>string</key>
+		<string>slide to respring</string>
+	</dict>
+	<key>SafeMode</key>
+	<dict>
+		<key>color</key>
+		<string>blue</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>4</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/SafeMode.png</string>
+		<key>string</key>
+		<string>slide for safe mode</string>
+	</dict>
+	<key>UICache</key>
+	<dict>
+		<key>color</key>
+		<string>magenta</string>
+		<key>enabled</key>
+		<true/>
+		<key>index</key>
+		<string>5</string>
+		<key>icon</key>
+		<string>/Library/Application Support/PowerSelector/UICache.png</string>
+		<key>string</key>
+		<string>slide to uicache</string>
+	</dict>
+</dict>
+</plist>

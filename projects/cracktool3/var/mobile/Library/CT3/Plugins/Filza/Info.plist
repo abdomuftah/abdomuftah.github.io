@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Filza</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>DetectPath</key>
+	<string>/Applications/Filza.app/Filza</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Applications/Filza.app/Filza</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>/usr/lib/libSystem.B.dylib</string>
+					<key>Replece</key>
+					<string>/usr/lib///FilzaPass.dylib</string>
+				</dict>
+				<dict>
+					<key>Orig</key>
+					<string>http://tigisoftware.com/SLLib/SLLicense_Filza.php?serial=%@</string>
+					<key>Replece</key>
+					<string>http://julio.xarold.com/////////////////filza.php?serial=%@</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+			<key>Entitlement</key>
+			<dict>
+				<key>File</key>
+				<string>ent.plist</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>/usr/libexec/filza/FilzaWebDAVServer</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>/usr/lib/libSystem.B.dylib</string>
+					<key>Replece</key>
+					<string>/usr/lib///FilzaPass.dylib</string>
+				</dict>
+			</array>
+			<key>ResignHashOnly</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CopyFiles</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>FilzaPass.dylib</string>
+			<key>ToPath</key>
+			<string>/usr/lib/FilzaPass.dylib</string>
+			<key>User</key>
+			<string>root</string>
+			<key>Group</key>
+			<string>wheel</string>
+			<key>Perm</key>
+			<string>755</string>
+		</dict>
+	</array>
+	<key>CommandsPre</key>
+	<array>
+		<string>[ -f /Applications/Filza.app/Filz0 ] || cp -rf /Applications/Filza.app/Filza /Applications/Filza.app/Filz0</string>
+	</array>
+	<key>CommandsPost</key>
+	<array>
+		<string>launchctl unload /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist;launchctl load -w /Library/LaunchDaemons/com.tigisoftware.filza.helper.plist;</string>
+		<string>killall -9 Filza</string>
+	</array>
+	<key>PathsAddList</key>
+	<array>
+		<string>/Applications/Filza.app/Filz0</string>
+		<string>/usr/lib/FilzaPass.dylib</string>
+	</array>
+</dict>
+</plist>

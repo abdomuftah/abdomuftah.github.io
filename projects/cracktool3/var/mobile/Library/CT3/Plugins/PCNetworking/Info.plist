@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>PC Networking</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>3</integer>
+	<key>DetectPath</key>
+	<string>/Library/PreferenceBundles/PCNetworking.bundle</string>
+	<key>ViewController</key>
+	<dict>
+		<key>File</key>
+		<string>PCNetworking</string>
+		<key>Class</key>
+		<string>PCNetworkingController</string>
+	</dict>
+</dict>
+</plist>

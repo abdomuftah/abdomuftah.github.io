@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>libiarrays</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>PromptRespring</key>
+	<true/>
+	<key>DetectPath</key>
+	<string>/usr/lib/libiarrays.dylib</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/usr/lib/libiarrays.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>http://iarrays.com/check/check/</string>
+					<key>Replece</key>
+					<string>http://julio.xarold.com/Copic//</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CommandsPost</key>
+	<array>
+		<string>sed -i '/iarrays.com/ d' /etc/hosts</string>
+	</array>
+</dict>
+</plist>

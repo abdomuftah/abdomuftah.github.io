@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>disableSearch</string>
+			<key>label</key>
+			<string>Disable Spotlight Search</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>disableRotation</string>
+			<key>label</key>
+			<string>Disable Rotation</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>disableJitter</string>
+			<key>label</key>
+			<string>Disable Wiggle Mode</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>disableUninstall</string>
+			<key>label</key>
+			<string>Disable Uninstall</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>disableEditing</string>
+			<key>label</key>
+			<string>Disable Editing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Items</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>hidePageDots</string>
+			<key>label</key>
+			<string>Hide Page Dots</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>hidePill</string>
+			<key>label</key>
+			<string>Hide Home Bar (iPhone X)</string>
+		</dict>
+		<dict>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string>net.dodtweaks.mdprefs.applist/changed</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+				<dict>
+					<key>cell-class-name</key>
+					<string>ALSwitchCell</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>predicate</key>
+					<string>isSystemApplication = TRUE</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+					<key>title</key>
+					<string>System Applications</string>
+				</dict>
+				<dict>
+					<key>cell-class-name</key>
+					<string>ALSwitchCell</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>predicate</key>
+					<string>isSystemApplication = FALSE</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+					<key>title</key>
+					<string>User Applications</string>
+				</dict>
+			</array>
+			<key>ALSettingsKeyPrefix</key>
+			<string>MDHide-</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/net.dodtweaks.mdprefs.applist.plist</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Hide Apps</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SpringBoard</string>
+</dict>
+</plist>

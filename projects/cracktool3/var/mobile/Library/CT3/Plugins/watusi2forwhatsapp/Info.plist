@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Watusi 2 for WhatsApp</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>PromptRespring</key>
+	<true/>
+	<key>DetectPath</key>
+	<string>/usr/lib/libWatusiTools.dylib</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/usr/lib/libWatusiTools.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>/usr/lib/libSystem.B.dylib</string>
+					<key>Replece</key>
+					<string>/usr/lib//////WTPass.dylib</string>
+				</dict>
+				<dict>
+					<key>HEX</key>
+					<true/>
+					<key>Orig</key>
+					<string>706174636865732f</string>
+					<key>Replece</key>
+					<string>076174636865732f</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CopyFiles</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>WTPass.dylib</string>
+			<key>ToPath</key>
+			<string>/usr/lib/WTPass.dylib</string>
+			<key>User</key>
+			<string>root</string>
+			<key>Group</key>
+			<string>wheel</string>
+			<key>Perm</key>
+			<string>755</string>
+		</dict>
+	</array>
+	<key>PathsAddList</key>
+	<array>
+		<string>/usr/lib/WTPass.dylib</string>
+	</array>
+</dict>
+</plist>

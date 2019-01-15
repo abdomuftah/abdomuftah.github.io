@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>iKeywi 3</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>2</integer>
+	<key>PromptRespring</key>
+	<true/>
+	<key>DetectPath</key>
+	<string>/Library/MobileSubstrate/DynamicLibraries/iKeywi3.dylib</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Library/MobileSubstrate/DynamicLibraries/iKeywi3.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>xYUzK7Cabr7rrOqUwgkdeIISG3zXvYWuxwwpX2b/QE/NaA8d0JLXDEdj13GilWAIG3b5KAd39sCN4PDo+NNeZQ==</string>
+					<key>Replece</key>
+					<string>G4d2CVug7oDe3mb3SaR9SH0EpQYaiKQ8E8Bnn9A9wzXaBdbNSgl/zG8u+JbjgCll2gXWzUoJf8xvLviW44ApZQ==</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>ExecutablesPost</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>postinst</string>
+		</dict>
+	</array>
+	<key>PathsAddList</key>
+	<array>
+		<string>/iKeywi3/check_license</string>
+	</array>
+</dict>
+</plist>

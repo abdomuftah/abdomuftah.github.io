@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>MessageHeadsXI</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>2</integer>
+	<key>PromptRespring</key>
+	<true/>
+	<key>DetectPath</key>
+	<string>/Library/PreferenceBundles/MessageHeadsXIPreferences.bundle/MessageHeadsXIPreferences</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Library/MobileSubstrate/DynamicLibraries/MessageHeadsXI.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>ignoreError</key>
+					<true/>
+					<key>Orig</key>
+					<string>/var/lib/dpkg/info/com.c1d3r.messageheadsxi.list</string>
+					<key>Replece</key>
+					<string>/var/lib/dpkg/info////////////////////cydia.list</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>ExecutablesPost</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>postinst</string>
+		</dict>
+	</array>
+</dict>
+</plist>

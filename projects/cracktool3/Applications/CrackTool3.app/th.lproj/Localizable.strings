@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>เกี่ยวกับ</string>
+	<key>About_CrackTool</key>
+	<string>เกี่ยวกับ CrackTool</string>
+	<key>About_text</key>
+	<string>เครื่องมือนี้ถูกพัฒนาเพื่อ Crack หรือ Patch Tweak เท่านั้น </string>
+	<key>Already_has_Applied</key>
+	<string>ดำเนินการไปแล้ว</string>
+	<key>Applied_Successfully</key>
+	<string>ดำเนินการสำเร็จ!!</string>
+	<key>Cancel</key>
+	<string>ยกเลิก</string>
+	<key>Changes_version</key>
+	<string>การเปลี่ยนแปลงในเวอร์ชันใหม่</string>
+	<key>Check_for_Update</key>
+	<string>เช็คอัพเดตเวอร์ชันใหม่</string>
+	<key>Close</key>
+	<string>ปิด</string>
+	<key>Crack_Error</key>
+	<string>เกิดข้อผิดพลาด, ไม่สามารถดำเนินการ Crack/Patch Tweak ของเวอร์ชันปัจจุบันที่ติดตั้งไว้</string>
+	<key>Device_Info</key>
+	<string>รายละเอียด อุปกรณ์:</string>
+	<key>Follow_me</key>
+	<string>ติดตามฉันบน ทวิตเตอร์</string>
+	<key>KeyGens</key>
+	<string>คีย์เจน:</string>
+	<key>New_Version_out</key>
+	<string>เวอร์ชันใหม่ล่าสุดออกแล้ว!!!</string>
+	<key>Not_installed</key>
+	<string>ไม่ได้ติดตั้งโปรแกรมไว้</string>
+	<key>Paid</key>
+	<string>แบบจ่ายเงิน:</string>
+	<key>Patch_removed</key>
+	<string>Patch ถูกลบออก</string>
+	<key>Patch_sucessfully_installed</key>
+	<string>Patch สำเร็จ!!</string>
+	<key>Patchs</key>
+	<string>แพชต์:</string>
+	<key>Respring</key>
+	<string>Respring</string>
+	<key>Respring_Now</key>
+	<string>Respring ตอนนี้</string>
+	<key>Translated</key>
+	<string>แปลภาษาโดย:</string>
+	<key>Translator_Name_Credits</key>
+	<string>notz Neverdie</string>
+	<key>Trial_Free</key>
+	<string>ทดลองใช้/ฟรี</string>
+	<key>Version</key>
+	<string>เวอร์ชัน:</string>
+	<key>update_title</key>
+	<string>เช็คอัพเดตเวอร์ชัน</string>
+	<key>with_last_ver</key>
+	<string>คุณใช้เวอร์ชันล่าสุดอยู่!!</string>
+</dict>
+</plist>

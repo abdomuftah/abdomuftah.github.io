@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DetectPath</key>
+	<string>/Library/PreferenceBundles/AudioRecorderPreferences.bundle/AudioRecorderPreferences</string>
+	<key>Name</key>
+	<string>AudioRecorder 2</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>http://www.limneos.net/crpaid.php?i=%@</string>
+					<key>Replece</key>
+					<string>http://julio.xarold.com/AudioRec/?i=%@</string>
+				</dict>
+				<dict>
+					<key>Orig</key>
+					<string>788484804a3f3f8787873e7c797d7e757f833e7e75843f7382807179743e807880</string>
+					<key>Replece</key>
+					<string>788484804a3f3f7a857c797f3e8871827f7c743e737f7d3f518574797f6275733f</string>
+				</dict>
+				<dict>
+					<key>HEX</key>
+					<true/>
+					<key>Orig</key>
+					<string>6964003000</string>
+					<key>Replece</key>
+					<string>6964003100</string>
+				</dict>
+			</array>
+			<key>Path</key>
+			<string>/Library/PreferenceBundles/AudioRecorderPreferences.bundle/AudioRecorderPreferences</string>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PromptRespring</key>
+	<true/>
+	<key>Type</key>
+	<integer>2</integer>
+	<key>Version</key>
+	<string>0.2</string>
+</dict>
+</plist>

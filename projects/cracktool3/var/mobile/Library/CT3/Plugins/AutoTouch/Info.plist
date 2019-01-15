@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>AutoTouch</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>1</integer>
+	<key>DetectPath</key>
+	<string>/Applications/AutoTouch.app/AutoTouch</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Applications/AutoTouch.app/AutoTouch</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>https://%@/server/license/?id=%@</string>
+					<key>Replece</key>
+					<string>https://julio.xarold.com/aut/?%@</string>
+				</dict>
+				<dict>
+					<key>Orig</key>
+					<string>https://%@/server/license/get_license.php?id=%@</string>
+					<key>Replece</key>
+					<string>https://julio.xarold.com/aut///l.php?c=%@&amp;id=%@</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>/Library/MobileSubstrate/DynamicLibraries/ATTweak.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>https://%@/server/license/get_license.php?id=%@</string>
+					<key>Replece</key>
+					<string>https://julio.xarold.com/aut///l.php?c=%@&amp;id=%@</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

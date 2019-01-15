@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>hideLowPower</string>
+			<key>label</key>
+			<string>Hide Low Power Alert</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.dodtweaks.mdprefs/preferences.changed</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>MDSwitchTableCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>net.dodtweaks.mdprefs</string>
+			<key>key</key>
+			<string>noSimAlert</string>
+			<key>label</key>
+			<string>Hide No Sim Alert</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Alerts</string>
+</dict>
+</plist>

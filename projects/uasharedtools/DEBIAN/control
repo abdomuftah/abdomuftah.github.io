@@ -1,0 +1,15 @@
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Author: UnlimApps Inc. <support@unlimapps.com>
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Name: uasharedtools
+Package: com.unlimapps.uasharedtools
+Depends: com.unlimapps.uasharedtools.virtual
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Section: Development
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Description: shared tools for unlimapps tweaks
+dev: i4iphones
+Tag: purpose::library, cydia::obsolete, role::developer
+Sponsor: ScarNaruto <http://scar-naruto.com>

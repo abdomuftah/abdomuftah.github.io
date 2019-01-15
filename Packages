@@ -1,0 +1,114 @@
+Package: com.aids.makecydiabuyagain
+Version: 1.0.2-89+debug
+Architecture: iphoneos-arm
+Maintainer: Jake Ihasz
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: ./debs/com.aids.makecydiabuyagain_1.0.2-89+debug_iphoneos-arm.deb
+Size: 30930
+MD5sum: f4bff3b6fe5b48a340c84b00b76c212f
+SHA1: 07dd400c6c8da9191c2ed67d9f1dd3a03fed7679
+SHA256: 800e221da8646ad05bdef32b74acccc8479a228aaa68d52a6b313a53c5d69ed1
+Section: Tweaks
+Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
+Author: Jake Ihasz
+Depiction: https://jakeai.github.io/depictions/?p=com.aids.makecydiabuyagain
+Name: MakeCydiaBuyAgain
+Sponsor: ScarNaruto <http://scar-naruto.com>
+
+Package: com.inati0n.inapp
+Version: 1.0~beta1
+Architecture: iphoneos-arm
+Maintainer: iNati0n <inati0n@yahoo.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.inati0n.inapp_1.0~beta1_iphoneos-arm.deb
+Size: 4016
+MD5sum: d5069cb0f4ec8a2bb3e33210a6d75c0b
+SHA1: 34010b6a1e255e936c7f2178e452341ed2328a74
+SHA256: 152ad67ddc3be8c38bdfdb4008e689e569b3aced439268246a920610eb87ad13
+Section: Tweaks
+Description: iOS 10 - 11.x 64bit and 32 bit Pwns In-App purchases Compatible with ARMv8. Enable in settings. PRESS "DISMISS 'ON POPUP!
+Author: InApp
+Depiction: http://inati0n.org/depictions/?p=com.inati0n.inapp
+Name: InApp Purchases iOS 10 & 11
+Sponsor: ScarNaruto <http://scar-naruto.com>
+
+Package: com.ioscreatix.intelix
+Version: 1.3.8
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix
+Installed-Size: 156
+Depends: mobilesubstrate
+Replaces: com.ioscreatix.intelixbeta
+Filename: ./debs/com.ioscreatix.intelix_1.3.8_iphoneos-arm.deb
+Size: 46202
+MD5sum: c8be54ee5e30f7c8653c1378e425be2a
+SHA1: b7286744f4cfc0e4144a3c22aeabb8794fb35765
+SHA256: 66769e68bcf0d7eccc1c27f379179d4073184dc93662d0049a205a1958703957
+Section: Tweaks
+Description: Grouped Notifications on iOS 11
+Author: iOS Creatix
+Name: Intelix
+Sponsor: ScarNaruto <http://scar-naruto.com>
+
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Depends: com.unlimapps.uasharedtools.virtual
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-71_iphoneos-arm.deb
+Size: 758
+MD5sum: 7045fcfbc8747821a11daf778514aaec
+SHA1: fb7207edabb739bbac5812754aed1a54a37c2959
+SHA256: bf063a44ec1521909bb2a267a00bb1b76dd33b6cff5cd51d5abeceadfb3ff314
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, cydia::obsolete, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+Sponsor: ScarNaruto <http://scar-naruto.com>
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/com.unlimapps.uasharedtools.nostash_2.2r-71_iphoneos-arm.deb
+Size: 23304882
+MD5sum: 61c9b0e039f53d6fb19de4187d143523
+SHA1: 860c588ae4cda90bdbc5a33b832fc312489f4f77
+SHA256: 9509163c6ad6007e4c58117a4c33f490cce07f3d266c2174fe245d25c187e779
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, cydia::obsolete, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools (iOS 11)
+Sponsor: ScarNaruto <http://scar-naruto.com>
+
+Package: net.dodgraphics.midevice
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm
+Maintainer: DODGraphics
+Installed-Size: 628
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, com.chpwn.iconsupport, org.thebigboss.libcolorpicker, applist
+Filename: ./debs/net.dodgraphics.midevice_0.0.1-8+debug_iphoneos-arm.deb
+Size: 189014
+MD5sum: 7c95934019af152dcc60e64441566494
+SHA1: ca4c3a8635fe67d7f2bb9ded20f58984d340b177
+SHA256: cae9adf4b4093a573b6386dcdd25f43ea81eef027007af726e41994d3d469eda
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: DODGraphics
+Name: MiDevice
+Sponsor: ScarNaruto <http://scar-naruto.com>
+

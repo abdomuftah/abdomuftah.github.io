@@ -1,0 +1,17 @@
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Author: UnlimApps Inc. <support@unlimapps.com>
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Name: uasharedtools (iOS 11)
+Package: com.unlimapps.uasharedtools.nostash
+Provides: com.unlimapps.uasharedtools.virtual
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Section: Development
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Description: shared tools for unlimapps tweaks
+dev: i4iphones
+Tag: purpose::library, cydia::obsolete, role::developer
+Sponsor: ScarNaruto <http://scar-naruto.com>

@@ -1,0 +1,16 @@
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconsupportData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconsupportData
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: ScarNaruto <admin@scar-naruto.com>
+Name: IconSupport
+Package: com.chpwn.iconsupport
+Pre-Depends: firmware (>= 3.0), firmware (<< 12.0)
+Depends: mobilesubstrate, firmware (>= 6.0) | jp.ashikase.bugfix.stuckpages, firmware (>= 6.0) | jp.ashikase.bugfix.duplicateicons
+Section: Development
+Architecture: iphoneos-arm
+Description: Support library for safe icon tweaks.
+Sponsor: ScarNaruto <http://scar-naruto.com>
+dev: ashikase
+Tag: role::developer, purpose::extension
+Version: 1.11.0-1
+Installed-Size: 244

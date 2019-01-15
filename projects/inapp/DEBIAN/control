@@ -1,0 +1,12 @@
+Architecture: iphoneos-arm
+Author: InApp
+Depends: mobilesubstrate
+Depiction: http://inati0n.org/depictions/?p=com.inati0n.inapp
+Description: iOS 10 - 11.x 64bit and 32 bit Pwns In-App purchases Compatible with ARMv8. Enable in settings. PRESS "DISMISS 'ON POPUP!
+Filename: ./debs/com.inati0n.inapp.deb
+Maintainer: iNati0n <inati0n@yahoo.com>
+Name: InApp Purchases iOS 10 & 11
+Package: com.inati0n.inapp
+Section: Tweaks
+Version: 1.0~beta1
+Sponsor: ScarNaruto <http://scar-naruto.com>

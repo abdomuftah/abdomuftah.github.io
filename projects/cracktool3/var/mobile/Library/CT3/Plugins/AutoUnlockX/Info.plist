@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>AutoUnlockX</string>
+	<key>Version</key>
+	<string>0.1</string>
+	<key>Type</key>
+	<integer>2</integer>
+	<key>PromptRespring</key>
+	<true/>
+	<key>DetectPath</key>
+	<string>/Library/MobileSubstrate/DynamicLibraries/AutoUnlockX.dylib</string>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>/Library/MobileSubstrate/DynamicLibraries/AutoUnlockX.dylib</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>https://member.sparkservers.co.uk</string>
+					<key>Replece</key>
+					<string>https://julio.xarold.com/spark///</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>/Library/PreferenceBundles/AutoUnlockXPrefs.bundle/AutoUnlockXPrefs</string>
+			<key>Patchs</key>
+			<array>
+				<dict>
+					<key>Orig</key>
+					<string>https://member.sparkservers.co.uk</string>
+					<key>Replece</key>
+					<string>https://julio.xarold.com/spark///</string>
+				</dict>
+			</array>
+			<key>Resign</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+Package: com.julioverne.cracktool3
+Name: CrackTool3 (iOS 11)
+Author: julioverne
+Version: 3.0~beta11
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Architecture: iphoneos-arm
+Description: Crack Tweaks On 1 Touch. arm64. Any Issue Try Reinstall and/or Run CT3 In Safe Mode.
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Utilities
+Sponsor: ScarNaruto <http://scar-naruto.com>

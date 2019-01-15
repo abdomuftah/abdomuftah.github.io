@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "PowerSelectorSettings";
+		cell = PSLinkCell;
+		detail = "PowerSelectorController";
+		icon = "icon.png";
+		isController = 1;
+		label = PowerSelector;
+	};
+}

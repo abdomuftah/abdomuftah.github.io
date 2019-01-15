@@ -1,0 +1,12 @@
+Package: com.aids.makecydiabuyagain
+Name: MakeCydiaBuyAgain
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
+Depiction: https://jakeai.github.io/depictions/?p=com.aids.makecydiabuyagain
+Maintainer: Jake Ihasz
+Author: Jake Ihasz
+Section: Tweaks
+Version: 1.0.2-89+debug
+Installed-Size: 176
+Sponsor: ScarNaruto <http://scar-naruto.com>

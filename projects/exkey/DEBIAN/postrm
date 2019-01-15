@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/bin/rm -f /var/mobile/Library/Caches/com.apple.keyboards/images/*
+/bin/rm -f /var/root/Library/Caches/com.apple.keyboards/images/*
+
+exit 0

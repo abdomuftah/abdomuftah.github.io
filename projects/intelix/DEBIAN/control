@@ -1,0 +1,12 @@
+Package: com.ioscreatix.intelix
+Name: Intelix
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Grouped Notifications on iOS 11
+Maintainer: iOS Creatix
+Author: iOS Creatix 
+Section: Tweaks
+Replaces: com.ioscreatix.intelixbeta
+Version: 1.3.8
+Installed-Size: 156
+Sponsor: ScarNaruto <http://scar-naruto.com>

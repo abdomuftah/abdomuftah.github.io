@@ -1,0 +1,15 @@
+#!/bin/sh
+
+chown 0:0 /usr/bin/ldrunps
+chown 0:0 /usr/bin/psreboot
+chown 0:0 /usr/bin/pspoweroff
+chmod 6755 /usr/bin/ldrunps
+chmod 6755 /usr/bin/psreboot
+chmod 6755 /usr/bin/pspoweroff
+
+declare -a cydia
+cydia=($CYDIA)
+if [[ ${CYDIA+@} ]]; then
+    eval "echo 'finish:restart' >&${cydia[0]}"
+fi
+exit 0

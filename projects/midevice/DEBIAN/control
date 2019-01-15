@@ -1,0 +1,11 @@
+Package: net.dodgraphics.midevice
+Name: MiDevice
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, com.chpwn.iconsupport, org.thebigboss.libcolorpicker, applist
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: DODGraphics
+Author: DODGraphics
+Section: Tweaks
+Version: 0.0.1-8+debug
+Installed-Size: 628
+Sponsor: ScarNaruto <http://scar-naruto.com>
